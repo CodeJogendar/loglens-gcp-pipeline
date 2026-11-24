@@ -1,0 +1,401 @@
+log_id,event_ts,service,region,endpoint,http_status,latency_ms,severity,message
+L00001,2026-11-10 00:29:13,payment-service,asia-south1,/refund,200,309,INFO,request completed
+L00002,2026-11-10 01:22:48,auth-service,europe-west1,/login,200,257,INFO,request completed
+L00003,2026-11-10 01:47:54,notification-service,us-central1,/notify/email,200,404,INFO,request completed
+L00004,2026-11-10 02:06:59,search-service,europe-west1,/search,200,235,INFO,request completed
+L00005,2026-11-10 02:30:02,auth-service,us-central1,/login,200,449,INFO,request completed
+L00006,2026-11-10 03:54:43,storage-service,asia-south1,/files/list,200,165,INFO,request completed
+L00007,2026-11-10 04:02:31,storage-service,us-central1,/files/list,200,62,INFO,request completed
+L00008,2026-11-10 04:20:18,search-service,asia-south1,/search,200,84,INFO,request completed
+L00009,2026-11-10 04:48:53,auth-service,europe-west1,/token/refresh,200,237,INFO,request completed
+L00010,2026-11-10 05:08:44,auth-service,europe-west1,/token/refresh,200,405,INFO,request completed
+L00011,2026-11-10 05:46:40,notification-service,asia-south1,/notify/sms,200,339,INFO,request completed
+L00012,2026-11-10 06:07:56,search-service,us-central1,/search,404,149,WARNING,resource not found
+L00013,2026-11-10 07:20:23,auth-service,asia-south1,/login,200,273,INFO,request completed
+L00014,2026-11-10 07:42:36,payment-service,asia-south1,/pay,200,434,INFO,request completed
+L00015,2026-11-10 07:51:40,notification-service,us-central1,/notify/sms,200,61,INFO,request completed
+L00016,2026-11-10 08:31:34,search-service,us-central1,/suggest,200,293,INFO,request completed
+L00017,2026-11-10 08:45:13,order-service,us-central1,/orders/cancel,200,208,INFO,request completed
+L00018,2026-11-10 08:54:16,order-service,europe-west1,/orders,200,279,INFO,request completed
+L00019,2026-11-10 09:07:18,storage-service,us-central1,/files/upload,200,270,INFO,request completed
+L00020,2026-11-10 09:35:50,search-service,us-central1,/suggest,400,274,WARNING,invalid request payload
+L00021,2026-11-10 09:43:56,auth-service,asia-south1,/login,400,390,WARNING,invalid request payload
+L00022,2026-11-10 09:44:38,storage-service,europe-west1,/files/download,201,150,INFO,resource created
+L00023,2026-11-10 09:47:49,payment-service,asia-south1,/pay,200,203,INFO,request completed
+L00024,2026-11-10 11:04:19,notification-service,europe-west1,/notify/email,200,279,INFO,request completed
+L00025,2026-11-10 12:41:39,payment-service,asia-south1,/pay,200,426,INFO,request completed
+L00026,2026-11-10 13:07:27,payment-service,asia-south1,/payment/status,200,365,INFO,request completed
+L00027,2026-11-10 13:42:27,auth-service,,/logout,200,112,INFO,request completed
+L00028,2026-11-10 13:44:50,notification-service,asia-south1,/notify/email,200,362,INFO,request completed
+L00029,2026-11-10 14:07:44,storage-service,europe-west1,/files/upload,200,255,INFO,request completed
+L00030,2026-11-10 14:20:15,order-service,europe-west1,/orders/cancel,200,181,INFO,request completed
+L00031,2026-11-10 14:37:35,auth-service,us-central1,/token/refresh,200,120,INFO,request completed
+L00032,2026-11-10 14:55:23,auth-service,asia-south1,/logout,200,182,INFO,request completed
+L00033,2026-11-10 15:28:40,storage-service,us-central1,/files/download,200,144,INFO,request completed
+L00034,2026-11-10 15:52:52,payment-service,europe-west1,/payment/status,200,170,INFO,request completed
+L00035,2026-11-10 16:19:38,notification-service,us-central1,/notify/sms,200,160,INFO,request completed
+L00036,2026-11-10 17:05:35,order-service,europe-west1,/orders/cancel,200,309,INFO,request completed
+L00037,2026-11-10 17:31:33,search-service,us-central1,/search,200,72,INFO,request completed
+L00038,2026-11-10 17:51:45,order-service,europe-west1,/orders/{id},400,41,WARNING,invalid request payload
+L00039,2026-11-10 19:24:03,notification-service,us-central1,/notify/sms,201,315,INFO,resource created
+L00040,2026-11-10 19:36:07,auth-service,asia-south1,/token/refresh,200,91,INFO,request completed
+L00041,2026-11-10 19:57:54,auth-service,asia-south1,/token/refresh,200,410,INFO,request completed
+L00042,2026-11-10 20:09:25,notification-service,europe-west1,/notify/email,201,209,INFO,resource created
+L00043,2026-11-10 22:39:02,order-service,us-central1,/orders/cancel,200,391,INFO,request completed
+L00044,2026-11-10 22:48:16,search-service,asia-south1,/suggest,200,390,INFO,request completed
+L00045,2026-11-10 22:51:06,order-service,europe-west1,/orders,200,114,INFO,request completed
+L00046,2026-11-10 23:04:46,payment-service,europe-west1,/refund,200,323,INFO,request completed
+L00047,2026-11-10 23:25:35,order-service,us-central1,/orders/{id},200,363,INFO,request completed
+L00048,2026-11-11 00:40:10,auth-service,europe-west1,/logout,200,197,INFO,request completed
+L00049,2026-11-11 01:17:42,order-service,,/orders/cancel,200,107,INFO,request completed
+L00050,2026-11-11 01:43:05,order-service,asia-south1,/orders,200,272,INFO,request completed
+L00051,2026-11-11 02:01:22,search-service,europe-west1,/search,200,426,INFO,request completed
+L00052,2026-11-11 02:04:59,order-service,europe-west1,/orders/cancel,200,438,INFO,request completed
+L00053,2026-11-11 02:30:45,search-service,europe-west1,/search,200,302,INFO,request completed
+L00054,2026-11-11 02:53:35,notification-service,europe-west1,/notify/email,200,283,INFO,request completed
+L00055,2026-11-11 03:16:43,notification-service,europe-west1,/notify/email,200,348,INFO,request completed
+L00056,2026-11-11 03:42:03,auth-service,us-central1,/token/refresh,200,347,INFO,request completed
+L00057,2026-11-11 04:07:54,storage-service,europe-west1,/files/upload,200,277,INFO,request completed
+L00058,2026-11-11 04:36:44,payment-service,europe-west1,/payment/status,200,408,INFO,request completed
+L00059,2026-11-11 04:46:52,storage-service,asia-south1,/files/list,200,151,INFO,request completed
+L00060,2026-11-11 04:47:46,auth-service,us-central1,/logout,200,263,INFO,request completed
+L00061,2026-11-11 04:54:34,payment-service,asia-south1,/refund,200,426,INFO,request completed
+L00062,2026-11-11 05:13:16,auth-service,asia-south1,/login,200,390,INFO,request completed
+L00063,2026-11-11 05:39:28,search-service,us-central1,/suggest,200,344,INFO,request completed
+L00064,2026-11-11 05:41:49,order-service,europe-west1,/orders,200,120,INFO,request completed
+L00065,2026-11-11 05:47:40,auth-service,asia-south1,/logout,200,254,INFO,request completed
+L00066,2026-11-11 05:55:16,search-service,us-central1,/suggest,200,393,INFO,request completed
+L00067,2026-11-11 06:35:45,notification-service,europe-west1,/notify/email,200,46,INFO,request completed
+L00068,2026-11-11 06:55:58,notification-service,asia-south1,/notify/email,201,144,INFO,resource created
+L00069,2026-11-11 07:03:29,auth-service,europe-west1,/token/refresh,201,349,INFO,resource created
+L00070,2026-11-11 07:03:48,auth-service,us-central1,/logout,200,239,INFO,request completed
+L00071,2026-11-11 07:51:29,order-service,us-central1,/orders,200,411,INFO,request completed
+L00072,2026-11-11 07:58:41,payment-service,asia-south1,/pay,200,202,INFO,request completed
+L00073,2026-11-11 10:24:05,notification-service,asia-south1,/notify/sms,200,65,INFO,request completed
+L00074,2026-11-11 10:34:30,auth-service,europe-west1,/login,200,447,INFO,request completed
+L00075,2026-11-11 10:45:11,storage-service,europe-west1,/files/upload,201,318,INFO,resource created
+L00076,2026-11-11 11:04:40,payment-service,asia-south1,/payment/status,200,225,INFO,request completed
+L00077,2026-11-11 11:52:00,order-service,us-central1,/orders/{id},200,105,INFO,request completed
+L00078,2026-11-11 12:52:34,search-service,us-central1,/search,200,163,INFO,request completed
+L00079,2026-11-11 13:15:28,order-service,asia-south1,/orders/cancel,201,228,INFO,resource created
+L00080,2026-11-11 13:20:51,notification-service,asia-south1,/notify/sms,200,232,INFO,request completed
+L00081,2026-11-11 13:48:16,auth-service,us-central1,/token/refresh,200,258,INFO,request completed
+L00082,2026-11-11 13:55:20,notification-service,us-central1,/notify/email,200,271,INFO,request completed
+L00083,2026-11-11 13:58:09,order-service,europe-west1,/orders/{id},200,215,INFO,request completed
+L00084,2026-11-11 14:17:39,auth-service,asia-south1,/login,200,55,INFO,request completed
+L00085,2026-11-11 14:45:48,search-service,europe-west1,/search,200,103,INFO,request completed
+L00086,2026-11-11 15:07:15,payment-service,europe-west1,/refund,200,69,INFO,request completed
+L00087,2026-11-11 15:12:15,auth-service,asia-south1,/login,200,167,INFO,request completed
+L00088,2026-11-11 15:17:09,notification-service,europe-west1,/notify/sms,200,185,INFO,request completed
+L00089,2026-11-11 15:18:36,auth-service,us-central1,/logout,200,310,INFO,request completed
+L00090,2026-11-11 15:54:35,search-service,us-central1,/search,404,70,WARNING,resource not found
+L00091,2026-11-11 16:00:50,notification-service,europe-west1,/notify/email,200,390,INFO,request completed
+L00092,2026-11-11 16:16:03,storage-service,asia-south1,/files/list,200,180,INFO,request completed
+L00093,2026-11-11 16:19:01,auth-service,us-central1,/login,200,381,INFO,request completed
+L00094,2026-11-11 16:30:37,auth-service,europe-west1,/token/refresh,200,322,INFO,request completed
+L00095,2026-11-11 16:38:49,payment-service,asia-south1,/pay,200,54,INFO,request completed
+L00096,2026-11-11 16:42:26,notification-service,asia-south1,/notify/sms,201,421,INFO,resource created
+L00097,2026-11-11 16:45:02,payment-service,us-central1,/pay,200,246,INFO,request completed
+L00098,2026-11-11 16:56:01,notification-service,europe-west1,/notify/email,200,198,INFO,request completed
+L00099,2026-11-11 17:03:49,payment-service,asia-south1,/refund,200,332,INFO,request completed
+L00100,2026-11-11 18:32:10,payment-service,asia-south1,/pay,200,352,INFO,request completed
+L00101,2026-11-11 18:44:21,auth-service,europe-west1,/login,200,274,INFO,request completed
+L00102,2026-11-11 18:50:20,auth-service,us-central1,/logout,200,379,INFO,request completed
+L00103,2026-11-11 19:00:47,auth-service,asia-south1,/token/refresh,200,394,INFO,request completed
+L00104,2026-11-11 19:01:47,notification-service,europe-west1,/notify/email,200,230,INFO,request completed
+L00105,2026-11-11 19:07:24,auth-service,us-central1,/login,200,-1,INFO,request completed
+L00106,2026-11-11 19:31:32,search-service,europe-west1,/search,200,377,INFO,request completed
+L00107,2026-11-11 20:03:36,search-service,us-central1,/suggest,429,14,WARNING,rate limit exceeded for client
+L00108,2026-11-11 20:07:45,search-service,europe-west1,/suggest,429,29,WARNING,rate limit exceeded for client
+L00109,2026-11-11 20:08:33,search-service,europe-west1,/search,429,5,WARNING,rate limit exceeded for client
+L00110,2026-11-11 20:12:01,payment-service,asia-south1,/refund,200,437,INFO,request completed
+L00111,2026-11-11 20:12:05,search-service,asia-south1,/suggest,429,22,WARNING,rate limit exceeded for client
+L00112,2026-11-11 20:12:50,search-service,asia-south1,/search,200,136,INFO,request completed
+L00113,2026-11-11 20:17:16,search-service,europe-west1,/suggest,429,28,WARNING,rate limit exceeded for client
+L00114,2026-11-11 20:18:38,search-service,asia-south1,/suggest,429,18,WARNING,rate limit exceeded for client
+L00115,2026-11-11 20:20:16,search-service,us-central1,/search,429,21,WARNING,rate limit exceeded for client
+L00116,2026-11-11 20:25:18,search-service,asia-south1,/search,429,18,WARNING,rate limit exceeded for client
+L00117,2026-11-11 20:27:24,search-service,us-central1,/suggest,429,35,WARNING,rate limit exceeded for client
+L00118,2026-11-11 20:27:39,search-service,us-central1,/suggest,429,36,WARNING,rate limit exceeded for client
+L00119,2026-11-11 20:29:16,order-service,asia-south1,/orders/{id},200,83,INFO,request completed
+L00120,2026-11-11 21:06:19,search-service,europe-west1,/suggest,400,328,WARNING,invalid request payload
+L00121,2026-11-11 21:15:54,payment-service,europe-west1,/pay,201,352,INFO,resource created
+L00122,2026-11-11 21:54:56,order-service,asia-south1,/orders,200,302,INFO,request completed
+L00123,2026-11-11 21:55:45,search-service,us-central1,/search,200,359,INFO,request completed
+L00124,2026-11-11 22:57:34,storage-service,europe-west1,/files/download,200,331,INFO,request completed
+L00125,2026-11-11 23:07:09,order-service,us-central1,/orders/cancel,201,329,INFO,resource created
+L00126,2026-11-11 23:23:18,notification-service,asia-south1,/notify/sms,200,428,INFO,request completed
+L00127,2026-11-11 23:24:32,auth-service,asia-south1,/token/refresh,201,77,INFO,resource created
+L00128,2026-11-11 23:35:51,storage-service,us-central1,/files/download,200,258,INFO,request completed
+L00129,2026-11-12 00:46:42,search-service,us-central1,/search,200,438,INFO,request completed
+L00130,2026-11-12 01:03:48,auth-service,us-central1,/login,200,210,INFO,request completed
+L00131,2026-11-12 01:46:59,search-service,europe-west1,/suggest,201,117,INFO,resource created
+L00132,2026-11-12 02:18:32,notification-service,europe-west1,/notify/sms,200,359,INFO,request completed
+L00133,2026-11-12 02:45:18,search-service,us-central1,/suggest,200,59,INFO,request completed
+L00134,2026-11-12 03:04:37,storage-service,asia-south1,/files/list,200,162,INFO,request completed
+L00135,2026-11-12 03:34:10,search-service,europe-west1,/search,200,215,INFO,request completed
+L00136,2026-11-12 03:45:04,auth-service,us-central1,/logout,200,295,INFO,request completed
+L00137,2026-11-12 03:55:07,auth-service,us-central1,/login,200,158,INFO,request completed
+L00138,2026-11-12 03:56:51,order-service,us-central1,/orders,200,103,INFO,request completed
+L00139,2026-11-12 04:23:11,auth-service,europe-west1,/token/refresh,200,111,INFO,request completed
+L00140,2026-11-12 04:40:31,order-service,europe-west1,/orders/{id},200,52,INFO,request completed
+L00141,2026-11-12 05:41:31,payment-service,europe-west1,/refund,200,272,INFO,request completed
+L00142,2026-11-12 06:55:48,order-service,us-central1,/orders/cancel,200,339,INFO,request completed
+L00143,2026-11-12 07:10:32,search-service,europe-west1,/suggest,200,121,INFO,request completed
+L00144,2026-11-12 07:31:07,payment-service,us-central1,/pay,400,352,WARNING,invalid request payload
+L00145,2026-11-12 07:36:53,auth-service,asia-south1,/logout,404,237,WARNING,resource not found
+L00146,2026-11-12 07:53:16,payment-service,asia-south1,/refund,200,255,INFO,request completed
+L00147,2026-11-12 08:48:58,payment-service,europe-west1,/payment/status,200,228,INFO,request completed
+L00148,2026-11-12 09:01:56,search-service,us-central1,/search,200,345,INFO,request completed
+L00149,2026-11-12 09:26:10,notification-service,asia-south1,/notify/sms,200,210,INFO,request completed
+L00150,2026-11-12 09:36:09,notification-service,europe-west1,/notify/sms,400,75,WARNING,invalid request payload
+L00151,2026-11-12 10:11:41,storage-service,asia-south1,/files/upload,404,413,WARNING,resource not found
+L00152,2026-11-12 11:01:35,payment-service,asia-south1,/payment/status,201,349,INFO,resource created
+L00153,2026-11-12 11:01:39,order-service,asia-south1,/orders,200,304,INFO,request completed
+L00154,2026-11-12 11:52:06,auth-service,europe-west1,/token/refresh,200,297,INFO,request completed
+L00155,2026-11-12 12:12:21,payment-service,europe-west1,/pay,200,355,INFO,request completed
+L00156,2026-11-12 12:56:34,storage-service,asia-south1,/files/download,200,134,INFO,request completed
+L00157,2026-11-12 13:08:11,payment-service,europe-west1,/refund,200,362,INFO,request completed
+L00158,2026-11-12 14:01:19,payment-service,europe-west1,/pay,201,5799,INFO,slow response from card gateway
+L00159,2026-11-12 14:10:13,payment-service,asia-south1,/refund,200,3605,INFO,slow response from card gateway
+L00160,2026-11-12 14:10:59,payment-service,europe-west1,/payment/status,200,3864,INFO,slow response from card gateway
+L00161,2026-11-12 14:24:43,payment-service,asia-south1,/payment/status,201,5392,INFO,slow response from card gateway
+L00162,2026-11-12 14:25:02,payment-service,europe-west1,/pay,201,3470,INFO,slow response from card gateway
+L00163,2026-11-12 14:28:10,payment-service,us-central1,/refund,201,2718,INFO,slow response from card gateway
+L00164,2026-11-12 14:33:29,payment-service,us-central1,/refund,201,4013,INFO,slow response from card gateway
+L00165,2026-11-12 14:33:41,payment-service,europe-west1,/payment/status,200,5057,INFO,slow response from card gateway
+L00166,2026-11-12 14:37:07,payment-service,asia-south1,/payment/status,201,2514,INFO,slow response from card gateway
+L00167,2026-11-12 14:46:25,payment-service,europe-west1,/pay,200,3460,INFO,slow response from card gateway
+L00168,2026-11-12 14:47:28,payment-service,asia-south1,/pay,201,5312,INFO,slow response from card gateway
+L00169,2026-11-12 14:48:06,payment-service,us-central1,/payment/status,201,2961,INFO,slow response from card gateway
+L00170,2026-11-12 14:50:20,payment-service,asia-south1,/pay,200,2759,INFO,slow response from card gateway
+L00171,2026-11-12 14:52:42,payment-service,asia-south1,/payment/status,201,2665,INFO,slow response from card gateway
+L00172,2026-11-12 14:54:22,payment-service,us-central1,/pay,201,3581,INFO,slow response from card gateway
+L00173,2026-11-12 14:56:50,order-service,asia-south1,/orders/{id},200,52,INFO,request completed
+L00174,2026-11-12 15:47:14,search-service,us-central1,/search,200,196,INFO,request completed
+L00175,2026-11-12 15:59:43,notification-service,europe-west1,/notify/email,200,188,INFO,request completed
+L00176,2026-11-12 16:07:46,storage-service,asia-south1,/files/upload,201,77,INFO,resource created
+L00177,2026-11-12 16:09:20,auth-service,europe-west1,/logout,200,317,INFO,request completed
+L00178,2026-11-12 16:09:25,storage-service,asia-south1,/files/list,200,140,INFO,request completed
+L00179,2026-11-12 16:42:44,storage-service,europe-west1,/files/list,200,79,INFO,request completed
+L00180,2026-11-12 17:01:24,notification-service,europe-west1,/notify/sms,200,314,INFO,request completed
+L00181,2026-11-12 17:04:41,auth-service,asia-south1,/logout,200,87,INFO,request completed
+L00182,2026-11-12 17:06:54,notification-service,asia-south1,/notify/sms,200,360,INFO,request completed
+L00183,2026-11-12 17:36:33,auth-service,us-central1,/logout,200,360,INFO,request completed
+L00184,2026-11-12 17:52:57,search-service,us-central1,/search,200,439,INFO,request completed
+L00185,2026-11-12 17:59:10,auth-service,europe-west1,/logout,200,417,INFO,request completed
+L00186,2026-11-12 18:14:45,order-service,us-central1,/orders,201,197,INFO,resource created
+L00187,2026-11-12 19:30:13,auth-service,asia-south1,/token/refresh,200,437,INFO,request completed
+L00188,2026-11-12 20:15:14,storage-service,europe-west1,/files/list,200,423,INFO,request completed
+L00189,2026-11-12 20:31:50,notification-service,europe-west1,/notify/sms,200,304,INFO,request completed
+L00190,2026-11-12 20:55:34,auth-service,us-central1,/logout,201,-1,INFO,resource created
+L00191,2026-11-12 21:42:16,storage-service,europe-west1,/files/list,200,109,INFO,request completed
+L00192,2026-11-12 22:12:25,storage-service,europe-west1,/files/list,200,59,INFO,request completed
+L00193,2026-11-12 23:04:34,auth-service,europe-west1,/logout,200,409,INFO,request completed
+L00194,2026-11-13 00:03:17,order-service,us-central1,/orders,200,395,INFO,request completed
+L00195,2026-11-13 00:18:11,notification-service,asia-south1,/notify/sms,200,60,INFO,request completed
+L00196,2026-11-13 00:34:18,search-service,europe-west1,/suggest,201,207,INFO,resource created
+L00197,2026-11-13 01:14:49,storage-service,europe-west1,/files/download,201,441,INFO,resource created
+L00198,2026-11-13 01:30:40,notification-service,us-central1,/notify/email,200,140,INFO,request completed
+L00199,2026-11-13 01:50:54,order-service,us-central1,/orders,200,293,INFO,request completed
+L00200,2026-11-13 01:57:23,storage-service,asia-south1,/files/list,200,306,INFO,request completed
+L00201,2026-11-13 02:06:32,payment-service,us-central1,/payment/status,200,414,INFO,request completed
+L00202,2026-11-13 02:10:27,auth-service,us-central1,/token/refresh,503,650,ERROR,database connection pool exhausted
+L00203,2026-11-13 02:12:01,auth-service,us-central1,/token/refresh,500,696,ERROR,database connection pool exhausted
+L00204,2026-11-13 02:12:22,auth-service,us-central1,/logout,500,622,ERROR,database connection pool exhausted
+L00205,2026-11-13 02:13:25,auth-service,us-central1,/login,503,897,ERROR,database connection pool exhausted
+L00206,2026-11-13 02:14:37,auth-service,us-central1,/logout,503,816,ERROR,database connection pool exhausted
+L00207,2026-11-13 02:16:05,auth-service,us-central1,/token/refresh,500,1128,ERROR,database connection pool exhausted
+L00208,2026-11-13 02:16:46,auth-service,us-central1,/logout,503,818,ERROR,database connection pool exhausted
+L00209,2026-11-13 02:19:41,auth-service,us-central1,/logout,503,557,ERROR,database connection pool exhausted
+L00210,2026-11-13 02:19:59,auth-service,us-central1,/logout,500,848,ERROR,database connection pool exhausted
+L00211,2026-11-13 02:20:50,auth-service,us-central1,/logout,503,1053,ERROR,database connection pool exhausted
+L00212,2026-11-13 02:21:07,auth-service,us-central1,/token/refresh,500,328,ERROR,database connection pool exhausted
+L00213,2026-11-13 02:21:21,auth-service,us-central1,/logout,503,1091,ERROR,database connection pool exhausted
+L00214,2026-11-13 02:21:39,auth-service,us-central1,/token/refresh,503,675,ERROR,database connection pool exhausted
+L00215,2026-11-13 02:22:38,auth-service,us-central1,/login,503,629,ERROR,database connection pool exhausted
+L00216,2026-11-13 02:24:36,auth-service,us-central1,/login,500,1454,ERROR,database connection pool exhausted
+L00217,2026-11-13 02:46:33,payment-service,europe-west1,/payment/status,200,405,INFO,request completed
+L00218,2026-11-13 03:05:44,storage-service,us-central1,/files/upload,200,121,INFO,request completed
+L00219,2026-11-13 04:08:08,order-service,us-central1,/orders/cancel,200,326,INFO,request completed
+L00220,2026-11-13 04:17:31,auth-service,us-central1,/token/refresh,200,45,INFO,request completed
+L00221,2026-11-13 04:27:21,search-service,europe-west1,/search,200,138,INFO,request completed
+L00222,2026-11-13 04:33:23,order-service,us-central1,/orders/{id},200,199,INFO,request completed
+L00223,2026-11-13 05:38:07,search-service,europe-west1,/search,200,303,INFO,request completed
+L00224,2026-11-13 07:10:20,storage-service,us-central1,/files/list,200,328,INFO,request completed
+L00225,2026-11-13 07:14:56,storage-service,us-central1,/files/download,200,337,INFO,request completed
+L00226,2026-11-13 07:47:14,auth-service,us-central1,/login,200,272,INFO,request completed
+L00227,2026-11-13 08:59:11,auth-service,asia-south1,/logout,200,257,INFO,request completed
+L00228,2026-11-13 09:27:49,storage-service,asia-south1,/files/download,200,355,INFO,request completed
+L00229,2026-11-13 09:36:23,notification-service,us-central1,/notify/email,201,126,INFO,resource created
+L00230,2026-11-13 10:00:48,auth-service,us-central1,/token/refresh,200,245,INFO,request completed
+L00231,2026-11-13 10:38:02,payment-service,us-central1,/refund,200,342,INFO,request completed
+L00232,2026-11-13 10:50:22,order-service,us-central1,/orders/{id},200,297,INFO,request completed
+L00233,2026-11-13 10:51:05,notification-service,asia-south1,/notify/email,200,336,INFO,request completed
+L00234,2026-11-13 10:57:58,storage-service,us-central1,/files/download,200,298,INFO,request completed
+L00235,2026-11-13 10:59:51,auth-service,europe-west1,/logout,200,224,INFO,request completed
+L00236,2026-11-13 11:57:25,order-service,asia-south1,/orders/{id},200,210,INFO,request completed
+L00237,2026-11-13 12:26:11,search-service,asia-south1,/search,200,388,INFO,request completed
+L00238,2026-11-13 12:47:39,storage-service,us-central1,/files/list,200,301,INFO,request completed
+L00239,2026-11-13 13:10:08,notification-service,europe-west1,/notify/sms,200,139,INFO,request completed
+L00240,2026-11-13 13:54:24,search-service,us-central1,/suggest,200,49,INFO,request completed
+L00241,2026-11-13 13:54:37,payment-service,europe-west1,/pay,200,194,INFO,request completed
+L00242,2026-11-13 14:42:36,order-service,us-central1,/orders/{id},200,146,INFO,request completed
+L00243,2026-11-13 15:03:56,order-service,us-central1,/orders/cancel,200,311,INFO,request completed
+L00244,2026-11-13 15:20:15,order-service,us-central1,/orders/cancel,200,315,INFO,request completed
+L00245,2026-11-13 16:32:03,payment-service,asia-south1,/payment/status,200,60,INFO,request completed
+L00246,2026-11-13 16:37:37,storage-service,us-central1,/files/list,200,262,INFO,request completed
+L00247,2026-11-13 16:40:21,notification-service,,/notify/sms,200,86,INFO,request completed
+L00248,2026-11-13 17:05:37,order-service,europe-west1,/orders/{id},200,126,INFO,request completed
+L00249,2026-11-13 17:14:50,auth-service,us-central1,/token/refresh,200,181,INFO,request completed
+L00250,2026-11-13 17:37:24,order-service,us-central1,/orders/{id},200,161,INFO,request completed
+L00251,2026-11-13 18:34:21,storage-service,us-central1,/files/upload,200,424,INFO,request completed
+L00252,2026-11-13 18:44:58,auth-service,asia-south1,/login,200,310,INFO,request completed
+L00253,2026-11-13 19:26:32,order-service,europe-west1,/orders/{id},200,132,INFO,request completed
+L00254,2026-11-13 20:12:07,payment-service,asia-south1,/payment/status,200,162,INFO,request completed
+L00255,2026-11-13 20:23:55,search-service,europe-west1,/search,200,242,INFO,request completed
+L00256,2026-11-13 20:25:45,notification-service,asia-south1,/notify/email,200,297,INFO,request completed
+L00257,2026-11-13 20:45:53,order-service,europe-west1,/orders/cancel,200,357,INFO,request completed
+L00258,2026-11-13 21:01:09,payment-service,us-central1,/payment/status,201,65,INFO,resource created
+L00259,2026-11-13 21:21:01,payment-service,asia-south1,/refund,200,272,INFO,request completed
+L00260,2026-11-13 22:50:18,auth-service,europe-west1,/logout,200,256,INFO,request completed
+L00261,2026-11-13 22:51:20,notification-service,europe-west1,/notify/email,404,90,WARNING,resource not found
+L00262,2026-11-13 23:10:42,notification-service,us-central1,/notify/email,200,421,INFO,request completed
+L00263,2026-11-13 23:13:02,search-service,us-central1,/search,200,89,INFO,request completed
+L00264,2026-11-14 00:02:17,payment-service,asia-south1,/refund,200,82,INFO,request completed
+L00265,2026-11-14 01:04:47,order-service,asia-south1,/orders/cancel,200,436,INFO,request completed
+L00266,2026-11-14 01:16:07,order-service,europe-west1,/orders/cancel,200,347,INFO,request completed
+L00267,2026-11-14 02:25:44,auth-service,europe-west1,/token/refresh,200,441,INFO,request completed
+L00268,2026-11-14 03:19:27,notification-service,europe-west1,/notify/email,200,438,INFO,request completed
+L00269,2026-11-14 03:37:28,search-service,us-central1,/suggest,200,144,INFO,request completed
+L00270,2026-11-14 05:12:10,storage-service,us-central1,/files/list,200,162,INFO,request completed
+L00271,2026-11-14 06:07:37,storage-service,asia-south1,/files/upload,200,242,INFO,request completed
+L00272,2026-11-14 06:08:41,notification-service,asia-south1,/notify/sms,200,197,INFO,request completed
+L00273,2026-11-14 06:28:56,order-service,asia-south1,/orders/cancel,200,214,INFO,request completed
+L00274,2026-11-14 06:29:35,payment-service,us-central1,/payment/status,404,61,WARNING,resource not found
+L00275,2026-11-14 06:56:18,storage-service,asia-south1,/files/list,200,140,INFO,request completed
+L00276,2026-11-14 07:43:19,storage-service,us-central1,/files/download,200,431,INFO,request completed
+L00277,2026-11-14 08:25:24,storage-service,asia-south1,/files/download,200,415,INFO,request completed
+L00278,2026-11-14 08:27:22,payment-service,us-central1,/pay,200,300,INFO,request completed
+L00279,2026-11-14 09:03:29,storage-service,asia-south1,/files/download,403,28,WARNING,PERMISSION_DENIED: caller lacks storage.objects.get
+L00280,2026-11-14 09:04:35,storage-service,europe-west1,/files/download,403,76,WARNING,PERMISSION_DENIED: caller lacks storage.objects.get
+L00281,2026-11-14 09:07:18,storage-service,us-central1,/files/upload,403,82,WARNING,PERMISSION_DENIED: caller lacks storage.objects.get
+L00282,2026-11-14 09:09:41,storage-service,europe-west1,/files/upload,403,106,WARNING,PERMISSION_DENIED: caller lacks storage.objects.get
+L00283,2026-11-14 09:10:22,storage-service,us-central1,/files/list,403,22,WARNING,PERMISSION_DENIED: caller lacks storage.objects.get
+L00284,2026-11-14 09:13:43,storage-service,us-central1,/files/list,403,90,WARNING,PERMISSION_DENIED: caller lacks storage.objects.get
+L00285,2026-11-14 09:15:16,storage-service,europe-west1,/files/download,403,112,WARNING,PERMISSION_DENIED: caller lacks storage.objects.get
+L00286,2026-11-14 09:18:42,storage-service,asia-south1,/files/download,403,49,WARNING,PERMISSION_DENIED: caller lacks storage.objects.get
+L00287,2026-11-14 09:37:16,storage-service,us-central1,/files/upload,403,38,WARNING,PERMISSION_DENIED: caller lacks storage.objects.get
+L00288,2026-11-14 09:38:49,storage-service,europe-west1,/files/download,403,55,WARNING,PERMISSION_DENIED: caller lacks storage.objects.get
+L00289,2026-11-14 09:40:14,notification-service,us-central1,/notify/sms,200,261,INFO,request completed
+L00290,2026-11-14 09:41:56,search-service,europe-west1,/search,200,180,INFO,request completed
+L00291,2026-11-14 11:20:31,auth-service,asia-south1,/logout,200,200,INFO,request completed
+L00292,2026-11-14 12:44:05,auth-service,asia-south1,/logout,200,102,INFO,request completed
+L00293,2026-11-14 12:59:17,notification-service,us-central1,/notify/email,200,337,INFO,request completed
+L00294,2026-11-14 13:28:35,notification-service,us-central1,/notify/sms,200,277,INFO,request completed
+L00295,2026-11-14 13:30:04,auth-service,asia-south1,/login,200,343,INFO,request completed
+L00296,2026-11-14 14:34:24,payment-service,us-central1,/refund,400,237,WARNING,invalid request payload
+L00297,2026-11-14 15:26:40,notification-service,asia-south1,/notify/email,200,145,INFO,request completed
+L00298,2026-11-14 15:27:15,notification-service,europe-west1,/notify/email,200,85,INFO,request completed
+L00299,2026-11-14 15:52:55,payment-service,asia-south1,/refund,200,54,INFO,request completed
+L00300,2026-11-14 16:14:35,auth-service,us-central1,/token/refresh,200,382,INFO,request completed
+L00301,2026-11-14 16:18:51,storage-service,asia-south1,/files/list,200,258,INFO,request completed
+L00302,2026-11-14 16:21:13,storage-service,europe-west1,/files/download,200,64,INFO,request completed
+L00303,2026-11-14 16:31:51,search-service,asia-south1,/search,200,191,INFO,request completed
+L00304,2026-11-14 17:07:29,order-service,europe-west1,/orders/{id},200,224,INFO,request completed
+L00305,2026-11-14 17:48:07,auth-service,europe-west1,/token/refresh,200,146,INFO,request completed
+L00306,2026-11-14 17:59:28,payment-service,us-central1,/payment/status,404,377,WARNING,resource not found
+L00307,2026-11-14 18:01:55,storage-service,europe-west1,/files/list,200,189,INFO,request completed
+L00308,2026-11-14 18:33:06,payment-service,,/refund,200,409,INFO,request completed
+L00309,2026-11-14 18:41:21,storage-service,asia-south1,/files/download,200,294,INFO,request completed
+L00310,2026-11-14 19:23:39,notification-service,europe-west1,/notify/sms,200,83,INFO,request completed
+L00311,2026-11-14 19:23:43,storage-service,us-central1,/files/upload,200,315,INFO,request completed
+L00312,2026-11-14 20:02:18,storage-service,asia-south1,/files/download,200,255,INFO,request completed
+L00313,2026-11-14 20:04:28,storage-service,asia-south1,/files/download,200,389,INFO,request completed
+L00314,2026-11-14 20:05:00,storage-service,europe-west1,/files/upload,200,119,INFO,request completed
+L00315,2026-11-14 20:07:12,auth-service,asia-south1,/token/refresh,200,280,INFO,request completed
+L00316,2026-11-14 20:09:27,notification-service,us-central1,/notify/sms,201,259,INFO,resource created
+L00317,2026-11-14 20:29:16,order-service,europe-west1,/orders,200,312,INFO,request completed
+L00318,2026-11-14 20:39:50,search-service,asia-south1,/search,404,102,WARNING,resource not found
+L00319,2026-11-14 21:03:51,payment-service,us-central1,/refund,200,121,INFO,request completed
+L00320,2026-11-14 21:22:07,search-service,europe-west1,/search,200,85,INFO,request completed
+L00321,2026-11-14 21:47:07,order-service,europe-west1,/orders/cancel,200,420,INFO,request completed
+L00322,2026-11-14 23:37:39,payment-service,asia-south1,/refund,201,116,INFO,resource created
+L00323,2026-11-14 23:41:30,search-service,us-central1,/search,200,270,INFO,request completed
+L00324,2026-11-15 00:10:36,payment-service,us-central1,/payment/status,200,405,INFO,request completed
+L00325,2026-11-15 00:41:31,auth-service,europe-west1,/logout,200,351,INFO,request completed
+L00326,2026-11-15 01:00:28,storage-service,us-central1,/files/list,200,-1,INFO,request completed
+L00327,2026-11-15 01:13:15,payment-service,europe-west1,/pay,200,237,INFO,request completed
+L00328,2026-11-15 02:01:49,auth-service,asia-south1,/logout,200,281,INFO,request completed
+L00329,2026-11-15 02:02:27,search-service,us-central1,/suggest,200,149,INFO,request completed
+L00330,2026-11-15 02:07:23,auth-service,us-central1,/logout,200,450,INFO,request completed
+L00331,2026-11-15 02:09:43,search-service,us-central1,/suggest,200,82,INFO,request completed
+L00332,2026-11-15 02:57:16,search-service,us-central1,/suggest,200,248,INFO,request completed
+L00333,2026-11-15 02:58:19,search-service,asia-south1,/suggest,200,297,INFO,request completed
+L00334,2026-11-15 03:24:21,storage-service,europe-west1,/files/list,200,235,INFO,request completed
+L00335,2026-11-15 03:31:45,search-service,europe-west1,/search,200,362,INFO,request completed
+L00336,2026-11-15 03:58:24,payment-service,asia-south1,/payment/status,200,340,INFO,request completed
+L00337,2026-11-15 05:37:18,payment-service,asia-south1,/refund,200,65,INFO,request completed
+L00338,2026-11-15 05:48:20,payment-service,europe-west1,/pay,200,366,INFO,request completed
+L00339,2026-11-15 05:52:39,order-service,asia-south1,/orders,404,343,WARNING,resource not found
+L00340,2026-11-15 06:11:31,payment-service,asia-south1,/payment/status,200,328,INFO,request completed
+L00341,2026-11-15 07:07:20,payment-service,europe-west1,/pay,201,206,INFO,resource created
+L00342,2026-11-15 08:07:05,payment-service,europe-west1,/payment/status,200,326,INFO,request completed
+L00343,2026-11-15 08:07:44,search-service,europe-west1,/suggest,200,209,INFO,request completed
+L00344,2026-11-15 08:10:35,storage-service,europe-west1,/files/download,200,183,INFO,request completed
+L00345,2026-11-15 08:28:41,search-service,asia-south1,/search,200,80,INFO,request completed
+L00346,2026-11-15 09:11:13,search-service,europe-west1,/suggest,200,280,INFO,request completed
+L00347,2026-11-15 09:27:56,auth-service,us-central1,/token/refresh,200,412,INFO,request completed
+L00348,2026-11-15 09:42:33,payment-service,asia-south1,/pay,201,151,INFO,resource created
+L00349,2026-11-15 10:16:26,order-service,europe-west1,/orders/cancel,200,128,INFO,request completed
+L00350,2026-11-15 11:17:43,notification-service,us-central1,/notify/sms,200,188,INFO,request completed
+L00351,2026-11-15 11:30:30,order-service,europe-west1,/orders/cancel,200,159,INFO,request completed
+L00352,2026-11-15 11:48:53,payment-service,asia-south1,/pay,200,115,INFO,request completed
+L00353,2026-11-15 11:58:49,notification-service,us-central1,/notify/email,200,250,INFO,request completed
+L00354,2026-11-15 12:27:05,storage-service,europe-west1,/files/upload,200,165,INFO,request completed
+L00355,2026-11-15 13:08:51,storage-service,asia-south1,/files/download,400,378,WARNING,invalid request payload
+L00356,2026-11-15 13:15:11,notification-service,us-central1,/notify/email,200,427,INFO,request completed
+L00357,2026-11-15 13:20:18,payment-service,europe-west1,/refund,200,419,INFO,request completed
+L00358,2026-11-15 14:10:39,notification-service,us-central1,/notify/sms,200,47,INFO,request completed
+L00359,2026-11-15 14:36:16,search-service,us-central1,/suggest,200,45,INFO,request completed
+L00360,2026-11-15 14:45:08,auth-service,asia-south1,/login,200,399,INFO,request completed
+L00361,2026-11-15 15:00:37,search-service,europe-west1,/suggest,201,280,INFO,resource created
+L00362,2026-11-15 15:19:47,payment-service,asia-south1,/refund,200,75,INFO,request completed
+L00363,2026-11-15 15:20:01,payment-service,asia-south1,/payment/status,201,70,INFO,resource created
+L00364,2026-11-15 15:41:22,auth-service,europe-west1,/logout,200,368,INFO,request completed
+L00365,2026-11-15 15:47:53,order-service,europe-west1,/orders,200,198,INFO,request completed
+L00366,2026-11-15 16:00:51,search-service,asia-south1,/search,200,437,INFO,request completed
+L00367,2026-11-15 16:13:58,search-service,asia-south1,/search,200,235,INFO,request completed
+L00368,2026-11-15 17:11:17,order-service,us-central1,/orders/{id},200,285,INFO,request completed
+L00369,2026-11-15 17:44:04,notification-service,asia-south1,/notify/email,200,336,INFO,request completed
+L00370,2026-11-15 17:53:25,payment-service,us-central1,/payment/status,200,354,INFO,request completed
+L00371,2026-11-15 18:01:05,order-service,europe-west1,/orders/{id},504,29719,ERROR,upstream timeout calling inventory-db
+L00372,2026-11-15 18:02:08,order-service,asia-south1,/orders,504,29021,ERROR,upstream timeout calling inventory-db
+L00373,2026-11-15 18:02:40,order-service,us-central1,/orders/{id},504,29373,ERROR,upstream timeout calling inventory-db
+L00374,2026-11-15 18:04:46,order-service,us-central1,/orders/{id},504,30776,ERROR,upstream timeout calling inventory-db
+L00375,2026-11-15 18:08:36,order-service,us-central1,/orders,504,29386,ERROR,upstream timeout calling inventory-db
+L00376,2026-11-15 18:12:15,order-service,europe-west1,/orders/{id},504,30543,ERROR,upstream timeout calling inventory-db
+L00377,2026-11-15 18:12:26,order-service,europe-west1,/orders/{id},504,30570,ERROR,upstream timeout calling inventory-db
+L00378,2026-11-15 18:15:07,order-service,asia-south1,/orders,504,29360,ERROR,upstream timeout calling inventory-db
+L00379,2026-11-15 18:18:23,order-service,asia-south1,/orders/{id},504,30382,ERROR,upstream timeout calling inventory-db
+L00380,2026-11-15 18:19:01,order-service,europe-west1,/orders/cancel,504,29440,ERROR,upstream timeout calling inventory-db
+L00381,2026-11-15 18:44:15,payment-service,us-central1,/pay,200,105,INFO,request completed
+L00382,2026-11-15 18:56:57,storage-service,europe-west1,/files/upload,200,240,INFO,request completed
+L00383,2026-11-15 19:01:55,storage-service,europe-west1,/files/upload,201,55,INFO,resource created
+L00384,2026-11-15 19:25:51,storage-service,europe-west1,/files/download,200,294,INFO,request completed
+L00385,2026-11-15 19:35:09,payment-service,us-central1,/refund,200,141,INFO,request completed
+L00386,2026-11-15 20:12:49,notification-service,asia-south1,/notify/sms,200,346,INFO,request completed
+L00387,2026-11-15 21:02:21,storage-service,us-central1,/files/upload,200,179,INFO,request completed
+L00388,2026-11-15 21:16:36,storage-service,europe-west1,/files/list,200,293,INFO,request completed
+L00389,2026-11-15 21:43:40,storage-service,asia-south1,/files/list,200,63,INFO,request completed
+L00390,2026-11-15 22:08:40,order-service,asia-south1,/orders/cancel,200,304,INFO,request completed
+L00391,2026-11-15 22:14:57,order-service,europe-west1,/orders,200,204,INFO,request completed
+L00392,2026-11-15 22:40:55,notification-service,asia-south1,/notify/email,200,140,INFO,request completed
+L00393,2026-11-15 23:00:25,notification-service,europe-west1,/notify/email,200,165,INFO,request completed
+L00394,2026-11-15 23:13:08,payment-service,europe-west1,/pay,200,312,INFO,request completed
+L00395,2026-11-15 23:37:25,search-service,europe-west1,/search,200,421,INFO,request completed
+L00094,2026-11-11 16:30:37,auth-service,europe-west1,/token/refresh,200,322,INFO,request completed
+L00261,2026-11-13 22:51:20,notification-service,europe-west1,/notify/email,404,90,WARNING,resource not found
+L00012,2026-11-10 06:07:56,search-service,us-central1,/search,404,149,WARNING,resource not found
+L00005,2026-11-10 02:30:02,auth-service,us-central1,/login,200,449,INFO,request completed
+L00245,2026-11-13 16:32:03,payment-service,asia-south1,/payment/status,200,60,INFO,request completed

@@ -1,0 +1,101 @@
+log_id,event_ts,service,region,endpoint,http_status,latency_ms,severity,message
+S00001,2026-11-23 00:00:00,order-service,asia-south1,/orders/cancel,200,129,INFO,request completed
+S00002,2026-11-23 00:00:00,search-service,us-central1,/search,200,204,INFO,request completed
+S00003,2026-11-23 00:00:00,notification-service,asia-south1,/notify/sms,200,439,INFO,request completed
+S00004,2026-11-23 00:00:00,order-service,asia-south1,/orders/{id},200,239,INFO,request completed
+S00005,2026-11-23 00:00:00,payment-service,europe-west1,/payment/status,200,45,INFO,request completed
+S00006,2026-11-23 00:00:00,auth-service,asia-south1,/logout,200,369,INFO,request completed
+S00007,2026-11-23 00:00:00,notification-service,europe-west1,/notify/sms,200,265,INFO,request completed
+S00008,2026-11-23 00:00:00,auth-service,asia-south1,/logout,200,330,INFO,request completed
+S00009,2026-11-23 00:00:00,search-service,europe-west1,/suggest,200,272,INFO,request completed
+S00010,2026-11-23 00:00:00,storage-service,asia-south1,/files/download,200,236,INFO,request completed
+S00011,2026-11-23 00:00:00,auth-service,europe-west1,/login,200,333,INFO,request completed
+S00012,2026-11-23 00:00:00,search-service,us-central1,/search,200,271,INFO,request completed
+S00013,2026-11-23 00:00:00,payment-service,europe-west1,/refund,200,206,INFO,request completed
+S00014,2026-11-23 00:00:00,notification-service,europe-west1,/notify/sms,200,171,INFO,request completed
+S00015,2026-11-23 00:00:00,storage-service,us-central1,/files/upload,200,280,INFO,request completed
+S00016,2026-11-23 00:00:00,search-service,asia-south1,/search,200,104,INFO,request completed
+S00017,2026-11-23 00:00:00,payment-service,asia-south1,/pay,200,372,INFO,request completed
+S00018,2026-11-23 00:00:00,auth-service,asia-south1,/login,200,173,INFO,request completed
+S00019,2026-11-23 00:00:00,storage-service,us-central1,/files/download,200,168,INFO,request completed
+S00020,2026-11-23 00:00:00,search-service,asia-south1,/suggest,200,47,INFO,request completed
+S00021,2026-11-23 00:00:00,payment-service,asia-south1,/pay,200,369,INFO,request completed
+S00022,2026-11-23 00:00:00,search-service,asia-south1,/search,200,443,INFO,request completed
+S00023,2026-11-23 00:00:00,storage-service,asia-south1,/files/upload,200,68,INFO,request completed
+S00024,2026-11-23 00:00:00,auth-service,us-central1,/login,200,131,INFO,request completed
+S00025,2026-11-23 00:00:00,order-service,asia-south1,/orders/{id},201,152,INFO,resource created
+S00026,2026-11-23 00:00:00,auth-service,europe-west1,/logout,200,238,INFO,request completed
+S00027,2026-11-23 00:00:00,auth-service,asia-south1,/logout,200,290,INFO,request completed
+S00028,2026-11-23 00:00:00,order-service,europe-west1,/orders,200,362,INFO,request completed
+S00029,2026-11-23 00:00:00,search-service,asia-south1,/suggest,200,260,INFO,request completed
+S00030,2026-11-23 00:00:00,order-service,europe-west1,/orders/cancel,200,362,INFO,request completed
+S00031,2026-11-23 00:00:00,storage-service,europe-west1,/files/upload,403,46,WARNING,PERMISSION_DENIED: caller lacks storage.objects.get
+S00032,2026-11-23 00:00:00,storage-service,asia-south1,/files/upload,403,43,WARNING,PERMISSION_DENIED: caller lacks storage.objects.get
+S00033,2026-11-23 00:00:00,storage-service,europe-west1,/files/download,403,108,WARNING,PERMISSION_DENIED: caller lacks storage.objects.get
+S00034,2026-11-23 00:00:00,storage-service,asia-south1,/files/download,403,25,WARNING,PERMISSION_DENIED: caller lacks storage.objects.get
+S00035,2026-11-23 00:00:00,storage-service,us-central1,/files/download,403,34,WARNING,PERMISSION_DENIED: caller lacks storage.objects.get
+S00036,2026-11-23 00:00:00,order-service,asia-south1,/orders,200,223,INFO,request completed
+S00037,2026-11-23 00:00:00,payment-service,europe-west1,/payment/status,404,394,WARNING,resource not found
+S00038,2026-11-23 00:00:00,search-service,asia-south1,/search,200,198,INFO,request completed
+S00039,2026-11-23 00:00:00,search-service,us-central1,/suggest,200,176,INFO,request completed
+S00040,2026-11-23 00:00:00,storage-service,asia-south1,/files/upload,200,108,INFO,request completed
+S00041,2026-11-23 00:00:00,search-service,asia-south1,/suggest,200,400,INFO,request completed
+S00042,2026-11-23 00:00:00,auth-service,us-central1,/login,200,185,INFO,request completed
+S00043,2026-11-23 00:00:00,payment-service,us-central1,/refund,200,272,INFO,request completed
+S00044,2026-11-23 00:00:00,storage-service,asia-south1,/files/download,200,251,INFO,request completed
+S00045,2026-11-23 00:00:00,search-service,us-central1,/suggest,200,227,INFO,request completed
+S00046,2026-11-23 00:00:00,order-service,us-central1,/orders/cancel,200,377,INFO,request completed
+S00047,2026-11-23 00:00:00,storage-service,asia-south1,/files/upload,200,384,INFO,request completed
+S00048,2026-11-23 00:00:00,storage-service,us-central1,/files/download,200,107,INFO,request completed
+S00049,2026-11-23 00:00:00,auth-service,europe-west1,/login,200,214,INFO,request completed
+S00050,2026-11-23 00:00:00,search-service,asia-south1,/search,200,90,INFO,request completed
+S00051,2026-11-23 00:00:00,order-service,asia-south1,/orders/cancel,200,48,INFO,request completed
+S00052,2026-11-23 00:00:00,order-service,asia-south1,/orders/cancel,200,397,INFO,request completed
+S00053,2026-11-23 00:00:00,auth-service,us-central1,/login,200,280,INFO,request completed
+S00054,2026-11-23 00:00:00,search-service,europe-west1,/search,200,201,INFO,request completed
+S00055,2026-11-23 00:00:00,search-service,us-central1,/search,400,50,WARNING,invalid request payload
+S00056,2026-11-23 00:00:00,auth-service,asia-south1,/login,200,398,INFO,request completed
+S00057,2026-11-23 00:00:00,search-service,europe-west1,/search,404,375,WARNING,resource not found
+S00058,2026-11-23 00:00:00,payment-service,us-central1,/refund,200,339,INFO,request completed
+S00059,2026-11-23 00:00:00,search-service,asia-south1,/search,200,303,INFO,request completed
+S00060,2026-11-23 00:00:00,notification-service,europe-west1,/notify/sms,200,372,INFO,request completed
+S00061,2026-11-23 00:00:00,payment-service,us-central1,/payment/status,503,2158,ERROR,upstream connect error or disconnect/reset before headers
+S00062,2026-11-23 00:00:00,payment-service,us-central1,/pay,503,1770,ERROR,upstream connect error or disconnect/reset before headers
+S00063,2026-11-23 00:00:00,payment-service,us-central1,/refund,503,1687,ERROR,upstream connect error or disconnect/reset before headers
+S00064,2026-11-23 00:00:00,payment-service,us-central1,/pay,503,1119,ERROR,upstream connect error or disconnect/reset before headers
+S00065,2026-11-23 00:00:00,payment-service,us-central1,/refund,503,1559,ERROR,upstream connect error or disconnect/reset before headers
+S00066,2026-11-23 00:00:00,payment-service,us-central1,/pay,503,849,ERROR,upstream connect error or disconnect/reset before headers
+S00067,2026-11-23 00:00:00,payment-service,us-central1,/refund,503,1519,ERROR,upstream connect error or disconnect/reset before headers
+S00068,2026-11-23 00:00:00,payment-service,us-central1,/payment/status,503,1897,ERROR,upstream connect error or disconnect/reset before headers
+S00069,2026-11-23 00:00:00,payment-service,us-central1,/pay,503,1892,ERROR,upstream connect error or disconnect/reset before headers
+S00070,2026-11-23 00:00:00,payment-service,us-central1,/pay,503,2389,ERROR,upstream connect error or disconnect/reset before headers
+S00071,2026-11-23 00:00:00,payment-service,us-central1,/payment/status,503,1417,ERROR,upstream connect error or disconnect/reset before headers
+S00072,2026-11-23 00:00:00,payment-service,us-central1,/pay,503,1955,ERROR,upstream connect error or disconnect/reset before headers
+S00073,2026-11-23 00:00:00,payment-service,us-central1,/payment/status,503,938,ERROR,upstream connect error or disconnect/reset before headers
+S00074,2026-11-23 00:00:00,payment-service,us-central1,/pay,503,1287,ERROR,upstream connect error or disconnect/reset before headers
+S00075,2026-11-23 00:00:00,payment-service,us-central1,/pay,503,2157,ERROR,upstream connect error or disconnect/reset before headers
+S00076,2026-11-23 00:00:00,payment-service,us-central1,/payment/status,503,1843,ERROR,upstream connect error or disconnect/reset before headers
+S00077,2026-11-23 00:00:00,payment-service,us-central1,/refund,503,1431,ERROR,upstream connect error or disconnect/reset before headers
+S00078,2026-11-23 00:00:00,payment-service,us-central1,/pay,503,1522,ERROR,upstream connect error or disconnect/reset before headers
+S00079,2026-11-23 00:00:00,payment-service,us-central1,/payment/status,503,1305,ERROR,upstream connect error or disconnect/reset before headers
+S00080,2026-11-23 00:00:00,payment-service,us-central1,/refund,503,1647,ERROR,upstream connect error or disconnect/reset before headers
+S00081,2026-11-23 00:00:00,storage-service,us-central1,/files/upload,200,151,INFO,request completed
+S00082,2026-11-23 00:00:00,payment-service,asia-south1,/payment/status,200,275,INFO,request completed
+S00083,2026-11-23 00:00:00,storage-service,asia-south1,/files/download,200,328,INFO,request completed
+S00084,2026-11-23 00:00:00,auth-service,us-central1,/login,200,404,INFO,request completed
+S00085,2026-11-23 00:00:00,auth-service,europe-west1,/logout,200,448,INFO,request completed
+S00086,2026-11-23 00:00:00,order-service,europe-west1,/orders/cancel,200,120,INFO,request completed
+S00087,2026-11-23 00:00:00,search-service,us-central1,/search,200,96,INFO,request completed
+S00088,2026-11-23 00:00:00,auth-service,asia-south1,/token/refresh,200,193,INFO,request completed
+S00089,2026-11-23 00:00:00,search-service,us-central1,/suggest,200,376,INFO,request completed
+S00090,2026-11-23 00:00:00,payment-service,europe-west1,/payment/status,200,326,INFO,request completed
+S00091,2026-11-23 00:00:00,search-service,europe-west1,/suggest,201,89,INFO,resource created
+S00092,2026-11-23 00:00:00,order-service,asia-south1,/orders/{id},200,347,INFO,request completed
+S00093,2026-11-23 00:00:00,search-service,us-central1,/suggest,200,445,INFO,request completed
+S00094,2026-11-23 00:00:00,search-service,asia-south1,/search,200,210,INFO,request completed
+S00095,2026-11-23 00:00:00,auth-service,asia-south1,/logout,200,311,INFO,request completed
+S00096,2026-11-23 00:00:00,search-service,asia-south1,/search,200,205,INFO,request completed
+S00097,2026-11-23 00:00:00,order-service,us-central1,/orders/{id},200,56,INFO,request completed
+S00098,2026-11-23 00:00:00,notification-service,europe-west1,/notify/sms,400,306,WARNING,invalid request payload
+S00099,2026-11-23 00:00:00,search-service,europe-west1,/search,200,231,INFO,request completed
+S00100,2026-11-23 00:00:00,order-service,asia-south1,/orders/{id},200,343,INFO,request completed
